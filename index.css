@@ -1,0 +1,100 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	background-color: transparent;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("bg.jpg");
+	background-size: cover;
+}
+
+li, a, button {
+	font-family: "Californian FB";
+	font-weight: 500px;
+	font-size: 16px;
+	color: #000;
+	text-decoration: none;
+}
+
+header {
+	border-bottom: 2px solid transparent;
+	box-shadow: 0 0 10px #888888;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 3%;
+}
+
+.logo {
+	cursor: pointer;
+	width: 80px;
+}
+
+.nav_links {
+	list-style: none;
+	z-index: 999;
+}
+
+.nav_links li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav_links li a {
+	transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+	padding: 9px 25px;
+	background-color: rgba(255,0,0,1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.4s ease 0s;
+	color: #fff;
+}
+
+nav ul li ul.sub-nav {
+  top: 75px;
+  width: 150px;
+  background: transparent;
+  border-top: none;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.14), -1px 0px 1px rgba(0, 0, 0, 0.14);
+  visibility: hidden;
+  opacity: 0;
+}
+
+nav ul li ul.sub-nav li {
+  position: absolute;
+  color: #eee;
+  /*display: inline-block;*/
+  font-size: 14px;
+  padding: 15px 0;
+}
+
+nav ul li ul.sub-nav li:hover {
+  color: #ea3b50;
+  box-shadow: 0 0;
+}
+
+nav ul li:hover ul.sub-nav {
+  visibility: visible;
+  opacity: 1;
+}
+
+button {
+	padding: 9px 25px;
+	background-color: rgba(255,0,0,1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	color: #fff;
+}
+
+	button:hover {
+		background-color: rgba(0,0,0,1);
+	}

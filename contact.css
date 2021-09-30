@@ -1,0 +1,178 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	background-color: transparent;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("bg.jpg");
+	background-size:cover;
+}
+
+
+li, a, button, h2, h3 {
+	font-family: "Californian FB";
+	font-weight: 500px;
+	font-size: 16px;
+	color: #000;
+	text-decoration: none;
+}
+
+header{
+	border-bottom: 2px solid transparent;
+	box-shadow: 0 0 10px #888888;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 3%;
+}
+
+.logo {
+	cursor: pointer;
+	width: 80px;
+}
+
+.nav_links {
+	list-style: none;
+}
+
+.nav_links li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav_links li a {
+	transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+	padding: 9px 25px;
+	background-color: rgba(255,0,0,1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.4s ease 0s;
+	color: #fff;
+}
+
+button{
+	padding: 9px 25px;
+	background-color: rgba(255,0,0,1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	color: #fff;
+}
+
+button:hover{
+	background-color: rgba(0,0,0,1);
+}
+
+div {
+	display: flex;
+	width: 100%;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+section {
+	width: 50%;
+	border: none;
+	margin: 3%;
+}
+
+section h2 {
+	padding-top: 5px;
+	padding-bottom: 20px;
+	font-size: 20px;
+}
+
+section h2:hover {
+	text-shadow: 1px 1px 1px rgb(255, 0, 0,0.6);
+}
+
+article h3 {
+	padding-top: 20px;
+	padding-bottom: 5px;
+	color: red;
+}
+
+#li_addr {
+	padding: 9px 20px;
+	list-style-image: url("loca.svg");
+}
+
+#li_tel {
+	padding: 9px 25px;
+	list-style-image: url("calls.png");
+}
+
+#li_tel a {
+	text-decoration: none;
+}
+
+#li_email {
+	padding: 9px 25px;
+	list-style-image: url("email.png");
+}
+
+#li_email a {
+	text-decoration: none;
+}
+
+
+.form {
+	margin-left: auto;
+	
+}
+
+.form li {
+	list-style: none;
+	padding: 10px 10px;
+}
+
+.form input {
+	border: none;
+	font-family: "Century Gothic";
+	font-size: 16px;
+	width: 50%;
+	height: 50px;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+.form input:focus { 
+    outline: none !important;
+    border-bottom-color: #719ECE;
+    box-shadow: 0 0 10px red;
+    outline-offset: -2px;
+ }
+
+.form button {
+	width: 100%;
+	border-radius: 0px;
+	background-color: rgb(255,0,0,0.8);
+}
+
+.form button:hover{
+	background-color: rgba(0,0,0,1);
+}
+
+.form textarea{
+	font-family: "Century Gothic";
+	font-size:16px;
+	width: 100%;
+	height: 200px;
+	padding-left: 20px;
+	padding-top: 10px;
+	border: none;
+}
+
+ .form textarea:focus { 
+    outline: none !important;
+    border-bottom-color: #719ECE;
+    box-shadow: 0 0 10px red;
+ }
